@@ -10,7 +10,7 @@ body {
   background-color: var(--color-secondary);
 }
 
-.centered {
+centered {
   display: flex;
   justify-content: center;
   align-items: center;
