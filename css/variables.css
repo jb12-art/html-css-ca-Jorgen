@@ -3,5 +3,14 @@
 
 :root {
   --color-primary: #0d0e0d;
-  --color-secondary: #974949;
+  --color-secondary: #ffffff;
+}
+
+@font-face {
+  font-family: Arial, georgia, sans-serif, tahoma;
+  src: url(https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap);
+}
+
+body {
+  font-family: Arial, georgia, sans-serif, tahoma;
 }

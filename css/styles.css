@@ -3,9 +3,160 @@
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
 @import url("./variables.css");
+@import url("./contact.css");
 /* Feel free to add as many of these imports as you need */
 
 body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
+  /*height: 3000px; for testing*/ 
+}
+
+header { 
+  /*position: relative; noroff vid*/
+  background: lightgrey;
+}
+
+.logo-div {
+  padding-top: 28px;
+  height: 208px;
+  max-width: 334px;
+  display: flex;
+  justify-content: center;  
+  margin:auto;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  /*max-width: 334px;
+  display: flex;
+  justify-content: center;*/
+}
+
+/*for desktop - noroff vid
+@media (min-width: 600px) {
+  nav {
+    display: block;
+    position: static;
+  }*/
+
+  /*noroff vid
+  .hamburger-icon {
+    display: none;
+  }*/
+  
+  /*noroff vid
+  nav a { 
+    display: inline-block;
+  }
+}*/
+
+/*for mobile*/
+/*noroff vid
+header {
+position: relative;
+color: #fff;
+padding: 10px;
+font-size: 1.5rem;
+}*/
+
+nav { /*#menu-checkbox noroff vid*/
+  /*display: none; noroff vid*/
+  /*position: absolute; noroff vid*/
+  /*background: grey; noroff vid*/
+  /*left: 0px; noroff vid*/
+  display: flex;
+  justify-content: center;
+}
+
+/*noroff vid
+nav a { 
+display: block;
+color: #fff;
+padding: 10px 20px;
+font-size: 1rem;
+} */
+
+/*noroff vid
+#menu-checkbox:checked ~ nav { 
+  display: block;
+}*/
+
+ul {
+  padding: 0px;
+  display: inline-block;
+} 
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+} 
+
+a:hover {
+  text-decoration: underline;
+}
+
+.current {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+li {
+  display: inline-block;
+}
+
+.about-us-title, .contact-us-title { /*title- about us and contact us page*/
+  text-align: center;
+  padding-top: 60px;
+}
+
+.home-page-text-div, .about-page-text-div { /* div-home page and about us*/
+  padding-top: 50px;
+  height: 167px;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  text-size-adjust: auto;
+}
+
+.home-page-text, .about-page-text { /*text-home page and about us*/
+  width: 100%;
+  text-size-adjust: auto;
+}
+
+.jackets-button {
+  max-width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  /*border: solid 1px #000; remove or change?*/
+  background: #8BCACE;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.home-page-image-div, .about-page-image-div { /*div-image home page and about us*/
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-page-image, .about-page-image { /*image-home page and about us*/
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

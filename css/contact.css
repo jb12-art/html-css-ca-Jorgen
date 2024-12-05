@@ -1,0 +1,19 @@
+.contact-page-text-div {
+  max-width: 880px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.div1, .div2, .div3, .div4, .div5 {
+  border-style: solid;
+  padding-left: 5px;
+}
+
+.name, .email {
+  width: 600px;
+}
+
+.message {
+  width: 600px;
+  height: 80px;
+}
