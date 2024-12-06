@@ -1,0 +1,46 @@
+.mammut-container-div {
+  border-style: solid;
+  max-width: 880px;
+  margin: auto;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.jacket-image-div {
+  max-width: 280px;
+  height: 356px;
+  background-size: cover;
+  
+}
+
+img {
+  width: 100%;
+  height: 95%;
+}
+
+.mammut-title {
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+  align-items: start;
+}
+
+.mammut-text {
+  max-width: 300px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.money {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.added-to-cart-button {
+  background-color: lightgreen;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

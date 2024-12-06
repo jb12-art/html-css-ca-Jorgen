@@ -4,6 +4,7 @@
 /* These are marked with an underscore: */
 @import url("./variables.css");
 @import url("./contact.css");
+@import url("./jackets.css");
 /* Feel free to add as many of these imports as you need */
 
 body {
@@ -110,7 +111,7 @@ li {
   display: inline-block;
 }
 
-.about-us-title, .contact-us-title { /*title- about us and contact us page*/
+.about-us-title, .contact-us-title, .jackets-title { /*title- about us and contact us page*/
   text-align: center;
   padding-top: 60px;
 }
