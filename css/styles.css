@@ -48,9 +48,10 @@ nav, #menu-checkbox {
   display: block;
 }
 
-.page-header { /*header*/
+/*header*/
+/* .page-header { 
 
-}
+}*/
 
 header {
   position: relative;
@@ -71,14 +72,17 @@ nav a {
   color: #000;
   padding: 10px 20px;
   font-size: 1rem;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 
 .current {
   font-weight: bold;
   text-decoration: underline;
-} 
+}
+
+.mobile-nav-icon {
+  display: none;
+}
 
 /*nav desktop - noroff vid*/
 @media (min-width: 710px) {
@@ -111,11 +115,13 @@ nav a {
   } 
 }
 
-.page-main { /*Main*/
+/*Main*/
+.page-main {
   flex-grow: 1;
 }
 
-.page-title { /*title on the pages*/
+/*title on the pages*/
+.page-title {
   text-align: center;
   padding-top: 60px;
   margin: auto;
@@ -123,7 +129,8 @@ nav a {
   justify-content: center; /*new test*/
 }
 
-.page-text-div { /* page-text-div */
+/* page-text-div */
+.page-text-div { 
   margin: auto;
   padding-top: 50px;
   height: 167px;
@@ -133,7 +140,8 @@ nav a {
   text-align: center;  
 }
 
-.page-text { /* page text */
+/* page text */
+.page-text { 
   margin: auto;
 }
 
@@ -159,9 +167,10 @@ nav a {
   height: auto;
 }
 
-.page-footer { /*Footer*/
+/*Footer*/
+/* .page-footer {
 
-}
+}*/
 
 footer {
   text-align: center;
