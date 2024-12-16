@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="rain, jacket, rain jacket" />
+    <!--('meta description' is telling the browser what your page is about) All html pages need to have this code, <meta name="description" content="" /> , and what the page is about in key words, inside (content="") The key words are displayed as bold in e.g. Google under the title of a web link. Try typing a food item in google and see.-->
+    <title>RainyDays: Shopping Cart</title>
+    <link rel="icon" type="image/x-icon" href="images/RainyDays_Logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- my code link from font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f96e83bcf8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="page-header">
+        <div class="logo-div">
+          <img
+            class="logo"
+            src="images/RainyDays_Logo.png"
+            alt="logo of the website"
+          />
+        </div>
+
+        <!--navigation-->
+        <!-- noroff vid -->
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <nav>
+          <a href="index.html">Home</a>
+
+          <a href="about.html">About us</a>
+
+          <a href="contact.html">Contact us</a>
+
+          <a href="jackets.html">Jackets</a>
+
+          <a href="shopping-cart.html" class="current">Shopping Cart</a>
+
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section>
+          <h1 class="page-title">
+            <img
+              class="cart-img"
+              src="images/cart.png"
+              alt="shopping cart"
+            />Shopping Cart
+          </h1>
+
+          <div></div>
+          <!--added items will be here-->
+
+          <p class="divider"></p>
+          <p class="total-text">Total € ,-</p>
+          <p class="divider"></p>
+          <button class="checkout-button">Go to Checkout</button>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <p>Follow us and stay updated with the latest gear and promotions.</p>
+        <p>
+          Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy
+          Day Gear
+        </p>
+        <p>Copyright &copy;</p>
+      </footer>
+    </div>
+  </body>
+</html>

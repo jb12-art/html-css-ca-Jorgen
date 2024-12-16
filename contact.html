@@ -6,6 +6,7 @@
     <meta name="description" content="about us, rainydays, information" />
     <!--('meta description' is telling the browser what your page is about) All html pages need to have this code, <meta name="description" content="" /> , and what the page is about in key words, inside (content="") The key words are displayed as bold in e.g. Google under the title of a web link. Try typing a food item in google and see.-->
     <title>RainyDays: Contact us</title>
+    <link rel="icon" type="image/x-icon" href="images/RainyDays_Logo.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
@@ -13,89 +14,106 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <!-- my code link from font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f96e83bcf8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <div class="logo-div">
-        <img
-          class="logo"
-          src="images/RainyDays_Logo.png"
-          alt="logo of the website"
-        />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li><a href="about.html">About us</a></li>
-
-          <li><a href="contact.html" class="current">Contact us</a></li>
-
-          <li><a href="jackets.html">Jackets</a></li>
-
-          <li><a href="shopping-cart.html">Shopping Cart</a></li>
-
-          <li><a href="checkout.html">Checkout</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h3 class="contact-us-title">Contact us</h3>
-        <div class="contact-container-div">
-          <!--Se i Figma og se hvor mange <div> elementer du skal ha.-->
-          <div class="div1">
-            <h4>We’re Here to Help</h4>
-            <p>
-              Whether you have questions about our products, need help with your
-              order, or just want to say hi, we’d love to hear from you.
-            </p>
-          </div>
-          <div class="div2">
-            <p></p>
-            <h4>Get in Touch</h4>
-            <p>Phone📞</p>
-            <p>+1 (555) 123-4567</p>
-            <p>Available Monday–Friday, 9 AM–5 PM (EST)</p>
-          </div>
-          <div class="div3">
-            <p>Email📧</p>
-            <p>support@rainydaygear.com</p>
-            <p>We’ll respond within 24–48 hours.</p>
-          </div>
-          <div class="div4">
-            <p>Address🏢</p>
-            <p>Rainy Day Gear HQ</p>
-            <p>1234 Stormy Lane</p>
-            <p>Seattle, WA 98101</p>
-          </div>
-          <div class="div5">
-            <h4>Have a Question?</h4>
-            <p>Use the form below to reach us directly!</p>
-            <p>Contact Form</p>
-
-            <p>Name (required):</p>
-            <input class="name" type="text" placeholder="Name" />
-            <p>Email (required):</p>
-            <input class="email" type="text" placeholder="Email" />
-            <p>Message (required):</p>
-            <input class="message" type="text" placeholder="Message" />
-            <p></p>
-            <button>Submit</button>
-            <p></p>
-          </div>
+    <div class="page-wrapper">
+      <header class="page-header">
+        <div class="logo-div">
+          <img
+            class="logo"
+            src="images/RainyDays_Logo.png"
+            alt="logo of the website"
+          />
         </div>
 
-        <div></div>
-      </section>
-    </main>
-    <footer>
-      <p>Follow us and stay updated with the latest gear and promotions.</p>
-      <p>
-        Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy Day
-        Gear
-      </p>
-      <p>Copyright &copy;</p>
-    </footer>
+        <!--navigation-->
+        <!-- noroff vid -->
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <nav>
+          <a href="index.html">Home</a>
+
+          <a href="about.html">About us</a>
+
+          <a href="contact.html" class="current">Contact us</a>
+
+          <a href="jackets.html">Jackets</a>
+
+          <a href="shopping-cart.html">Shopping Cart</a>
+
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section>
+          <h1 class="page-title">Contact us</h1>
+          <p class="contact-divider"></p>
+          <div class="contact-container-div">
+            <div class="div1">
+              <h4>We’re Here to Help</h4>
+              <p>
+                Whether you have questions about our products, need help with
+                your order, or just want to say hi. We’d love to hear from you.
+              </p>
+            </div>
+            <p class="contact-divider"></p>
+            <div class="div2">
+              <p></p>
+              <h4>Get in Touch</h4>
+              <p>Phone📞</p>
+              <p>+1 (555) 123-4567</p>
+              <p>Available Monday–Friday, 9 AM–5 PM (EST)</p>
+            </div>
+            <p class="contact-divider"></p>
+            <div class="div3">
+              <p>Email📧</p>
+              <p>support@rainydaygear.com</p>
+              <p>We’ll respond within 24–48 hours.</p>
+            </div>
+            <p class="contact-divider"></p>
+            <div class="div4">
+              <p>Address🏢</p>
+              <p>Rainy Day Gear HQ</p>
+              <p>1234 Stormy Lane</p>
+              <p>Seattle, WA 98101</p>
+            </div>
+            <p class="contact-divider"></p>
+            <div class="div5">
+              <h4>Have a Question?</h4>
+              <p>Use the contact form below to reach us directly!</p>
+              <div class="space"></div>
+              <!--use <form> to make it realistic, read Module 2-Forms, en see video.-->
+              <p>Name (required):</p>
+              <input class="name" type="text" placeholder="Name" />
+              <p>Email (required):</p>
+              <input class="email" type="text" placeholder="Email" />
+              <p>Message (required):</p>
+              <input class="message" type="text" placeholder="Message" />
+              <p class="space"></p>
+              <button>Submit</button>
+              <p></p>
+            </div>
+            <p class="contact-divider"></p>
+          </div>
+
+          <div></div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <p>Follow us and stay updated with the latest gear and promotions.</p>
+        <p>
+          Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy
+          Day Gear
+        </p>
+        <p>Copyright &copy;</p>
+      </footer>
+    </div>
   </body>
 </html>

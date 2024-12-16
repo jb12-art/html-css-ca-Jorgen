@@ -1,0 +1,28 @@
+.order {
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.conformation-text {
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.payment-container {
+  margin: auto;
+  max-width: 500px;
+  margin-bottom: 60px;
+}
+
+input {
+  width: 500px;
+}
+
+.buy-now-button {
+  margin-top: 40px;
+}

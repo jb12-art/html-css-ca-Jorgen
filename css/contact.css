@@ -1,3 +1,10 @@
+.contact-divider {
+  max-width: 880px;
+  height: 1px;
+  margin: auto;
+  background: #000;
+}
+
 .contact-container-div {
   max-width: 880px;
   margin: auto;
@@ -5,10 +12,14 @@
 }
 
 .div1, .div2, .div3, .div4, .div5 {
-  border-style: solid;
-  border-color: lightgrey;
+  /* border-style: solid; 
+  border-color: lightgrey;*/
   padding-left: 5px;
   margin-bottom: 5px;
+}
+
+.space {
+  padding-bottom: 15px;
 }
 
 .name, .email {

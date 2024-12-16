@@ -6,6 +6,7 @@
     <meta name="description" content="about us, rainydays, information" />
     <!--('meta description' is telling the browser what your page is about) All html pages need to have this code, <meta name="description" content="" /> , and what the page is about in key words, inside (content="") The key words are displayed as bold in e.g. Google under the title of a web link. Try typing a food item in google and see.-->
     <title>RainyDays: About us</title>
+    <link rel="icon" type="image/x-icon" href="images/RainyDays_Logo.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
@@ -13,65 +14,78 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <!-- my code link from font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f96e83bcf8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <div class="logo-div">
-        <img
-          class="logo"
-          src="images/RainyDays_Logo.png"
-          alt="logo of the website"
-        />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li><a href="about.html" class="current">About us</a></li>
-
-          <li><a href="contact.html">Contact us</a></li>
-
-          <li><a href="jackets.html">Jackets</a></li>
-
-          <li><a href="shopping-cart.html">Shopping Cart</a></li>
-
-          <li><a href="checkout.html">Checkout</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h3 class="about-us-title">About us</h3>
-        <div class="about-page-text-div">
-          <p class="about-page-text">
-            At Rainydays, we specialize in crafting high-performance rain
-            jackets designed to keep you dry, comfortable, and stylish—no matter
-            the forecast. Our jackets are made from premium, eco-friendly
-            materials that are as durable as they are breathable, ensuring you
-            stay protected from rain without feeling weighed down. With
-            innovative waterproof technology and designs that prioritize comfort
-            and flexibility, our rain jackets are perfect for urban explorers,
-            outdoor adventurers, and everyone in between. Embrace the elements
-            with confidence, knowing your Rainydays jacket has you covered.
-          </p>
-        </div>
-
-        <div class="about-page-image-div">
+    <div class="page-wrapper">
+      <header class="page-header">
+        <div class="logo-div">
           <img
-            class="about-page-image"
-            src="images/about.png"
-            alt="about page picture"
+            class="logo"
+            src="images/RainyDays_Logo.png"
+            alt="logo of the website"
           />
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>Follow us and stay updated with the latest gear and promotions.</p>
-      <p>
-        Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy Day
-        Gear
-      </p>
-      <p>Copyright &copy;</p>
-    </footer>
+
+        <!--navigation-->
+        <!-- noroff vid -->
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <nav>
+          <a href="index.html">Home</a>
+
+          <a href="about.html" class="current">About us</a>
+
+          <a href="contact.html">Contact us</a>
+
+          <a href="jackets.html">Jackets</a>
+
+          <a href="shopping-cart.html">Shopping Cart</a>
+
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section>
+          <h1 class="page-title">About us</h1>
+          <div class="page-text-div">
+            <p class="page-text">
+              At Rainydays, we specialize in crafting high-performance rain
+              jackets designed to keep you dry, comfortable, and stylish—no
+              matter the forecast. Our jackets are made from premium,
+              eco-friendly materials that are as durable as they are breathable,
+              ensuring you stay protected from rain without feeling weighed
+              down. With innovative waterproof technology and designs that
+              prioritize comfort and flexibility, our rain jackets are perfect
+              for urban explorers, outdoor adventurers, and everyone in between.
+              Embrace the elements with confidence, knowing your Rainydays
+              jacket has you covered.
+            </p>
+          </div>
+
+          <div class="about-page-image-div">
+            <img
+              class="about-page-image"
+              src="images/about.jpg"
+              alt="about page picture"
+            />
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <p>Follow us and stay updated with the latest gear and promotions.</p>
+        <p>
+          Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy
+          Day Gear
+        </p>
+        <p>Copyright &copy;</p>
+      </footer>
+    </div>
   </body>
 </html>

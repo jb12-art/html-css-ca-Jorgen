@@ -5,142 +5,146 @@
 @import url("./variables.css");
 @import url("./contact.css");
 @import url("./jackets.css");
+@import url("./shoppingcart.css");
+@import url("./checkout.css");
+@import url("./purchase.css");
 /* Feel free to add as many of these imports as you need */
 
 body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
-  /*height: 3000px; for testing*/ 
+  margin: 0;
 }
 
-header { 
-  /*position: relative; noroff vid*/
-  background: lightgrey;
+/*div for: header, main, footer. noroff vid*/
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.logo-div {
+.logo-div { 
   padding-top: 28px;
-  height: 208px;
+  height: auto;
   max-width: 334px;
   display: flex;
   justify-content: center;  
-  margin:auto;
+  margin: auto;
 }
 
 .logo {
   height: auto;
   width: 100%;
-  /*max-width: 334px;
-  display: flex;
-  justify-content: center;*/
+  margin: auto;
 }
 
-/*for desktop - noroff vid
-@media (min-width: 600px) {
-  nav {
-    display: block;
-    position: static;
-  }*/
-
-  /*noroff vid
-  .hamburger-icon {
-    display: none;
-  }*/
-  
-  /*noroff vid
-  nav a { 
-    display: inline-block;
-  }
-}*/
-
-/*for mobile*/
-/*noroff vid
-header {
-position: relative;
-color: #fff;
-padding: 10px;
-font-size: 1.5rem;
-}*/
-
-nav { /*#menu-checkbox noroff vid*/
-  /*display: none; noroff vid*/
-  /*position: absolute; noroff vid*/
-  /*background: grey; noroff vid*/
-  /*left: 0px; noroff vid*/
-  display: flex;
-  justify-content: center;
+/*nav-mobile noroff vid */
+nav, #menu-checkbox {
+  display: none;
 }
 
-/*noroff vid
-nav a { 
-display: block;
-color: #fff;
-padding: 10px 20px;
-font-size: 1rem;
-} */
-
-/*noroff vid
-#menu-checkbox:checked ~ nav { 
+/*nav-mobile noroff vid */
+#menu-checkbox:checked ~ nav {
   display: block;
-}*/
+}
 
-ul {
-  padding: 0px;
-  display: inline-block;
-} 
+.page-header { /*header*/
 
-a {
-  color: black;
+}
+
+header {
+  position: relative;
+  background: lightgrey;
+}
+
+/*nav-mobile noroff vid*/
+nav {
+  position: absolute;
+  background: lightgrey;
+  left: 0px;
+  margin: auto;
+}
+
+/*nav-mobile noroff vid*/
+nav a {
+  display: block;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 1rem;
   text-decoration: none;
-  padding-top: 10px;
-  display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
-} 
-
-a:hover {
-  text-decoration: underline;
+  
 }
 
 .current {
   font-weight: bold;
   text-decoration: underline;
+} 
+
+/*nav desktop - noroff vid*/
+@media (min-width: 710px) {
+  nav {
+    padding-top: 15px; /*my code*/
+    display: block;
+    position: static;
+    display: flex; /*my code*/
+    justify-content: center; /*my code*/    
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  /*my code*/
+  a:hover { 
+    text-decoration: underline;
+  }
+  
+  /*my code*/
+  .current {
+    font-weight: bold;
+    text-decoration: underline;
+  } 
 }
 
-li {
-  display: inline-block;
+.page-main { /*Main*/
+  flex-grow: 1;
 }
 
-.about-us-title, .contact-us-title, .jackets-title { /*title- about us and contact us page*/
+.page-title { /*title on the pages*/
   text-align: center;
   padding-top: 60px;
+  margin: auto;
+  display: flex; /*new test*/
+  justify-content: center; /*new test*/
 }
 
-.home-page-text-div, .about-page-text-div { /* div-home page and about us*/
+.page-text-div { /* page-text-div */
+  margin: auto;
   padding-top: 50px;
   height: 167px;
-  max-width: 1100px;
+  max-width: 800px;
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin: auto;
-  text-size-adjust: auto;
+  text-align: center;  
 }
 
-.home-page-text, .about-page-text { /*text-home page and about us*/
-  width: 100%;
-  text-size-adjust: auto;
+.page-text { /* page text */
+  margin: auto;
 }
 
 .jackets-button {
+  margin: auto;
   max-width: 160px;
   height: 40px;
   border-radius: 8px;
-  /*border: solid 1px #000; remove or change?*/
   background: #8BCACE;
   font-size: 18px;
   display: block;
-  margin: auto;
   cursor: pointer;
 }
 
@@ -153,6 +157,10 @@ li {
 .home-page-image, .about-page-image { /*image-home page and about us*/
   width: 100%;
   height: auto;
+}
+
+.page-footer { /*Footer*/
+
 }
 
 footer {

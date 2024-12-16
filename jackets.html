@@ -6,6 +6,7 @@
     <meta name="description" content="rain, jacket, rain jacket" />
     <!--('meta description' is telling the browser what your page is about) All html pages need to have this code, <meta name="description" content="" /> , and what the page is about in key words, inside (content="") The key words are displayed as bold in e.g. Google under the title of a web link. Try typing a food item in google and see.-->
     <title>RainyDays: Jackets</title>
+    <link rel="icon" type="image/x-icon" href="images/RainyDays_Logo.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
@@ -13,64 +14,122 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <!-- min code fra font awesome, hvis du ikke finner desktop til mobil, slett desktop nav koden å lag mobil hamburger-icon først.
-    <script src="https://kit.fontawesome.com/f96e83bcf8.js" crossorigin="anonymous"></script> -->
+    <!-- my code link from font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f96e83bcf8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <div class="logo-div">
-        <img
-          class="logo"
-          src="images/RainyDays_Logo.png"
-          alt="logo of the website"
-        />
-      </div>
-      <!-- noroff vid
-      <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox" class="hamburger-icon"
-        ><i class="fas fa-bar"></i></label -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li><a href="about.html">About us</a></li>
-
-          <li><a href="contact.html">Contact us</a></li>
-
-          <li><a href="jackets.html" class="current">Jackets</a></li>
-
-          <li><a href="shopping-cart.html">Shopping Cart</a></li>
-
-          <li><a href="checkout.html">Checkout</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h3 class="jackets-title">Our Jackets</h3>
-        <div class="mammut-container-div">
-          <div class="jacket-image-div">
-            <img src="images/RainyDays_Jacket1.jpg" alt="Mammut jacket" />
-          </div>
-          <div class="mammut-title">
-            <h3>Mammut</h3>
-            <div class="mammut-text">
-              Waterproof, breathable and durable hunting jacket. Designed for
-              hunting in changing weather, rain and snow.
-            </div>
-            <h4 class="money">€250</h4>
-            <button class="added-to-cart-button">Added to Cart</button>
-          </div>
+    <div class="page-wrapper">
+      <header class="page-header">
+        <div class="logo-div">
+          <img
+            class="logo"
+            src="images/RainyDays_Logo.png"
+            alt="logo of the website"
+          />
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>Follow us and stay updated with the latest gear and promotions.</p>
-      <p>
-        Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy Day
-        Gear
-      </p>
-      <p>Copyright &copy;</p>
-    </footer>
+
+        <!--navigation-->
+        <!-- noroff vid -->
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <nav>
+          <a href="index.html">Home</a>
+
+          <a href="about.html">About us</a>
+
+          <a href="contact.html">Contact us</a>
+
+          <a href="jackets.html" class="current">Jackets</a>
+
+          <a href="shopping-cart.html">Shopping Cart</a>
+
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section>
+          <h1 class="page-title">Our Jackets</h1>
+          <div class="mammut-container-div">
+            <!--Mammut container div-->
+            <div class="jacket-image-div">
+              <img src="images/RainyDays_Jacket1.jpg" alt="Mammut jacket" />
+            </div>
+            <div class="brand-name">
+              <h3>Mammut</h3>
+              <div class="brand-text">
+                Waterproof, breathable and durable hunting jacket. Designed for
+                hunting in changing weather, rain and snow.
+              </div>
+              <h4 class="money">€250</h4>
+              <button class="added-to-cart-button">Added to Cart</button>
+            </div>
+          </div>
+
+          <div class="scottblack-container-div">
+            <!--Scott black container div-->
+            <div class="jacket-image-div">
+              <img
+                src="images/RainyDays_Jacket4.jpg"
+                alt="Scott black jacket"
+              />
+            </div>
+            <div class="brand-name">
+              <h3>Scott black</h3>
+              <div class="brand-text">
+                Stay out longer with 2-layer waterproof laminate, zoned
+                synthetic insulation. Good to training.
+              </div>
+              <h4 class="money">€200</h4>
+              <button class="added-to-cart-button">Added to Cart</button>
+            </div>
+          </div>
+
+          <div class="beretta-container-div">
+            <!--Beretta container div-->
+            <div class="jacket-image-div">
+              <img src="images/RainyDays_Jacket3.jpg" alt="Beretta jacket" />
+            </div>
+            <div class="brand-name">
+              <h3>Beretta</h3>
+              <div class="brand-text">
+                Constructed with a 2L 4-way Stretch material and filled with
+                Insulation to ensure optimal weather protection and warmth.
+              </div>
+              <h4 class="money">€220</h4>
+              <button class="added-to-cart-button">Added to Cart</button>
+            </div>
+          </div>
+
+          <div class="scottgrey-container-div">
+            <!--Scott grey container div-->
+            <div class="jacket-image-div">
+              <img src="images/RainyDays_Jacket2.jpg" alt="Scott grey jacket" />
+            </div>
+            <div class="brand-name">
+              <h3>Scott grey</h3>
+              <div class="brand-text">
+                Made with a silent, waterproof membrane that makes it good for
+                the cold autumn rains.
+              </div>
+              <h4 class="money">€220</h4>
+              <button class="added-to-cart-button">Added to Cart</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <p>Follow us and stay updated with the latest gear and promotions.</p>
+        <p>
+          Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy
+          Day Gear
+        </p>
+        <p>Copyright &copy;</p>
+      </footer>
+    </div>
   </body>
 </html>

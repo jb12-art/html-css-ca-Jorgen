@@ -1,0 +1,23 @@
+.cart-img {
+  width: 20px;
+  height: 20px;
+}
+
+.divider {
+  max-width: 500px;
+  height: 1px;
+  margin: auto;
+  background: #000;
+}
+
+.total-text {
+  text-align: center;
+  margin: auto;
+}
+
+.checkout-button {
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  display: block;  
+}

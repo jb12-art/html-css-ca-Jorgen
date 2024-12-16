@@ -6,6 +6,7 @@
     <meta name="description" content="rain, jacket, rain jacket" />
     <!--('meta description' is telling the browser what your page is about) All html pages need to have this code, <meta name="description" content="" /> , and what the page is about in key words, inside (content="") The key words are displayed as bold in e.g. Google under the title of a web link. Try typing a food item in google and see.-->
     <title>RainyDays: Home</title>
+    <link rel="icon" type="image/x-icon" href="images/RainyDays_Logo.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
@@ -13,68 +14,69 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <!-- min code fra font awesome, hvis du ikke finner desktop til mobil, slett desktop nav koden å lag mobil hamburger-icon først.
-    <script src="https://kit.fontawesome.com/f96e83bcf8.js" crossorigin="anonymous"></script> -->
+    <!-- my code link from font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f96e83bcf8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <div class="logo-div">
-        <img
-          class="logo"
-          src="images/RainyDays_Logo.png"
-          alt="logo of the website"
-        />
-      </div>
-      <!-- noroff vid
-      <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox" class="hamburger-icon"
-        ><i class="fas fa-bar"></i></label -->
-      <nav>
-        <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-
-          <li><a href="about.html">About us</a></li>
-
-          <li><a href="contact.html">Contact us</a></li>
-
-          <li><a href="jackets.html">Jackets</a></li>
-
-          <li><a href="shopping-cart.html">Shopping Cart</a></li>
-
-          <li><a href="checkout.html">Checkout</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div class="home-page-text-div">
-          <p class="home-page-text">
-            At Rainydays, you can get rain jackets designed to keep you dry,
-            comfortable, and stylish. Our jackets are made as durable as they
-            are breathable, stay protected from rain without feeling weighed
-            down. With comfort and flexibility, our rain jackets are perfect for
-            urban explorers, outdoor adventurers, and everyone in between.
-            Embrace the elements with confidence, knowing Rainydays jacket has
-            you covered.
-          </p>
-        </div>
-        <button class="jackets-button">See our Jackets</button>
-        <div class="home-page-image-div">
+    <div class="page-wrapper">
+      <header class="page-header">
+        <div class="logo-div">
           <img
-            class="home-page-image"
-            src="images/home-page.jpg"
-            alt="main page picture"
+            class="logo"
+            src="images/RainyDays_Logo.png"
+            alt="logo of the website"
           />
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>Follow us and stay updated with the latest gear and promotions.</p>
-      <p>
-        Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy Day
-        Gear
-      </p>
-      <p>Copyright &copy;</p>
-    </footer>
+        <!-- noroff vid -->
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <!--navigation-->
+        <nav>
+          <a href="index.html" class="current">Home</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact us</a>
+          <a href="jackets.html">Jackets</a>
+          <a href="shopping-cart.html">Shopping Cart</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section>
+          <h1 class="page-title">Welcome to RainyDays</h1>
+          <div class="page-text-div">
+            <p class="page-text">
+              At Rainydays, you can get rain jackets designed to keep you dry,
+              comfortable, and stylish. Our jackets are made as durable as they
+              are breathable, stay protected from rain without feeling weighed
+              down. With comfort and flexibility, our rain jackets are perfect
+              for urban explorers, outdoor adventurers, and everyone in between.
+              Embrace the elements with confidence, knowing Rainydays jacket has
+              you covered.
+            </p>
+          </div>
+          <button class="jackets-button">See our Jackets</button>
+          <div class="home-page-image-div">
+            <img
+              class="home-page-image"
+              src="images/home-page.jpg"
+              alt="home page picture"
+            />
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <p>Follow us and stay updated with the latest gear and promotions.</p>
+        <p>
+          Instagram: @RainyDayGear | Twitter: @RainyDayGear | Facebook: Rainy
+          Day Gear
+        </p>
+        <p>Copyright &copy;</p>
+      </footer>
+    </div>
   </body>
 </html>
