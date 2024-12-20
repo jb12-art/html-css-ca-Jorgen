@@ -24,11 +24,12 @@
     <div class="page-wrapper">
       <header class="page-header">
         <div class="logo-div">
-          <img
-            class="logo"
-            src="images/RainyDays_Logo.png"
-            alt="logo of the website"
-          />
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="images/RainyDays_Logo.png"
+              alt="logo of the website"
+          /></a>
         </div>
 
         <!--navigation-->
@@ -56,8 +57,9 @@
       <main class="page-main">
         <section>
           <h1 class="page-title">Contact us</h1>
-          <p class="contact-divider"></p>
+
           <div class="contact-container-div">
+            <p class="contact-divider"></p>
             <div class="div1">
               <h4>We’re Here to Help</h4>
               <p>
@@ -91,21 +93,52 @@
               <h4>Have a Question?</h4>
               <p>Use the contact form below to reach us directly!</p>
               <div class="space"></div>
-              <!--use <form> to make it realistic, read Module 2-Forms, en see video.-->
-              <p>Name (required):</p>
-              <input class="name" type="text" placeholder="Name" />
-              <p>Email (required):</p>
-              <input class="email" type="text" placeholder="Email" />
-              <p>Message (required):</p>
-              <input class="message" type="text" placeholder="Message" />
-              <p class="space"></p>
-              <button>Submit</button>
-              <p></p>
+              <!-- Noroff vid, with my own setup -->
+              <form>
+                <!-- action="form-success.php" method="POST"-->
+                <!-- <legend></legend> -->
+                <!-- <fieldset> -->
+                <label for="name">Name (required)</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-input"
+                  required
+                />
+                <!-- </fieldset> -->
+                <!-- <fieldset> -->
+                <label for="email">Email address (required)</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                  required
+                />
+                <!-- </fieldset> -->
+                <!-- <fieldset> -->
+                <label for="message">Message (required)</label>
+                <input
+                  class="form-message"
+                  type="text"
+                  name="message"
+                  id="message"
+                  class="form-input"
+                  required
+                />
+                <!-- </fieldset> -->
+                <p class="space"></p>
+                <input
+                  type="submit"
+                  value="Submit"
+                  class="contact-submit-button"
+                />
+              </form>
+              <p>The page will refresh after 'Submit' button is clicked</p>
             </div>
             <p class="contact-divider"></p>
           </div>
-
-          <div></div>
         </section>
       </main>
       <footer class="page-footer">

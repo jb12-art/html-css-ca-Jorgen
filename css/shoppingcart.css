@@ -4,20 +4,47 @@
 }
 
 .divider {
-  max-width: 500px;
+  max-width: 300px;
   height: 1px;
   margin: auto;
   background: #000;
 }
 
 .total-text {
-  text-align: center;
   margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.anchor-checkout-button {
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  width: 130px;
+}
+
+.anchor-checkout-button:hover {
+  text-decoration: none;
 }
 
 .checkout-button {
   margin: auto;
+  width: 150px;
+  height: auto;
   margin-bottom: 60px;
   margin-top: 50px;
   display: block;  
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  border-width: 2px;
+  border-color: black;
+  font-weight: bold;
 }

@@ -1,0 +1,12 @@
+.about-page-image-div {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-page-image {
+  width: 60%;
+  height: auto;
+}
+

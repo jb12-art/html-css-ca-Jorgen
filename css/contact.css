@@ -1,19 +1,16 @@
 .contact-divider {
-  max-width: 880px;
+  width: 700px;
   height: 1px;
-  margin: auto;
   background: #000;
 }
 
 .contact-container-div {
-  max-width: 880px;
   margin: auto;
-  margin-bottom: 60px;
+  width: 700px;
+  margin-bottom: 60px;  
 }
 
 .div1, .div2, .div3, .div4, .div5 {
-  /* border-style: solid; 
-  border-color: lightgrey;*/
   padding-left: 5px;
   margin-bottom: 5px;
 }
@@ -22,11 +19,21 @@
   padding-bottom: 15px;
 }
 
-.name, .email {
-  width: 600px;
+/* Noroff vid */
+.form-input {
+  margin: auto;
+  margin: 0;
+  display: block;
+  margin-bottom: 20px;
 }
 
-.message {
-  width: 600px;
-  height: 80px;
+.form-message {
+  margin: auto;
+  margin: 0;
+  display: block;
+  padding-bottom: 80px;
+}
+
+.contact-submit-button {
+  width: 200px;
 }

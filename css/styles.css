@@ -3,6 +3,7 @@
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
 @import url("./variables.css");
+@import url("./about.css");
 @import url("./contact.css");
 @import url("./jackets.css");
 @import url("./shoppingcart.css");
@@ -11,9 +12,11 @@
 /* Feel free to add as many of these imports as you need */
 
 body {
+  margin: auto;
   color: var(--color-primary);
   background-color: var(--color-secondary);
   margin: 0;
+  background-color: rgb(223, 230, 238);
 }
 
 /*div for: header, main, footer. noroff vid*/
@@ -47,11 +50,6 @@ nav, #menu-checkbox {
 #menu-checkbox:checked ~ nav {
   display: block;
 }
-
-/*header*/
-/* .page-header { 
-
-}*/
 
 header {
   position: relative;
@@ -124,6 +122,7 @@ nav a {
 .page-title {
   text-align: center;
   padding-top: 60px;
+  padding-bottom: 60px;
   margin: auto;
   display: flex; /*new test*/
   justify-content: center; /*new test*/
@@ -131,46 +130,61 @@ nav a {
 
 /* page-text-div */
 .page-text-div { 
-  margin: auto;
-  padding-top: 50px;
-  height: 167px;
+  margin: auto;  
   max-width: 800px;
   display: flex;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
+  flex-direction: column;
 }
 
 /* page text */
 .page-text { 
-  margin: auto;
+  margin: auto;  
 }
 
 .jackets-button {
   margin: auto;
-  max-width: 160px;
+  width: 160px;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
   background: #8BCACE;
   font-size: 18px;
   display: block;
   cursor: pointer;
 }
 
-.home-page-image-div, .about-page-image-div { /*div-image home page and about us*/
+.jackets-button:hover {
+  border-style: solid;
+  border-color: #000;
+  text-decoration: none;
+}
+
+.anchor-tag-jacket-button { 
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  width: 140px;
+}
+
+.anchor-tag-jacket-button:hover {
+  text-decoration: none;
+}
+
+/*div-image home page*/
+.home-page-image-div { 
   margin-top: 30px;
   display: flex;
   justify-content: center;
 }
 
-.home-page-image, .about-page-image { /*image-home page and about us*/
-  width: 100%;
+/*image-home page*/
+.home-page-image { 
+  width: 60%;
   height: auto;
 }
-
-/*Footer*/
-/* .page-footer {
-
-}*/
 
 footer {
   text-align: center;
