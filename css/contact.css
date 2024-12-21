@@ -1,17 +1,24 @@
 .contact-divider {
-  width: 700px;
+  margin: auto;
+  max-width: 700px;
   height: 1px;
+  display: block;
   background: #000;
 }
 
 .contact-container-div {
   margin: auto;
-  width: 700px;
+  max-width: 700px;
+  display: block;
   margin-bottom: 60px;  
 }
 
 .div1, .div2, .div3, .div4, .div5 {
+  margin: auto;
+  max-width: 700px;
   padding-left: 5px;
+  padding-right: 5px;
+  display: block;
   margin-bottom: 5px;
 }
 
@@ -22,6 +29,8 @@
 /* Noroff vid */
 .form-input {
   margin: auto;
+  max-width: 500px;
+  width: 100%;
   margin: 0;
   display: block;
   margin-bottom: 20px;
@@ -29,11 +38,15 @@
 
 .form-message {
   margin: auto;
+  max-width: 500px;
+  width: 100%;
   margin: 0;
   display: block;
   padding-bottom: 80px;
 }
 
 .contact-submit-button {
-  width: 200px;
+  margin: auto;
+  max-width: 200px;
+  width: 100%;
 }
