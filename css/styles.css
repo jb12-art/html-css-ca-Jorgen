@@ -48,8 +48,54 @@ header {
   background: lightgrey;
 }
 
+.current {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* nav mobile screen */
-/* @media (max-width: 710px)  */
+@media (max-width: 710px) {
+
+.anchor-tag-jackets-button { 
+  margin: auto;
+  max-width: 180px;
+  height: 40px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+ }
+
+.jackets-button {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 180px;
+  height: 40px;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  background: #8BCACE;
+  display: block;
+  cursor: pointer;
+ }
+  
+
+.home-page-image-div { 
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .home-page-image { 
+  margin: auto;
+  width: 100%;
+  height: auto;
+ }
+}
+ 
 
 /*nav-mobile noroff vid */
 nav, #menu-checkbox {
@@ -78,23 +124,19 @@ nav a {
   text-decoration: none;  
 }
 
-.current {
-  font-weight: bold;
-  text-decoration: underline;
-}
-/* nav-mobile */
+/* nav-mobile noroff vid*/
 .mobile-nav-icon {
   display: none;
 }
 
-/*nav desktop - noroff vid*/
+/*nav desktop screen*/
 @media (min-width: 710px) {
   nav {
-    padding-top: 15px; /*my code*/
+    padding-top: 15px;
     display: block;
     position: static;
-    display: flex; /*my code*/
-    justify-content: center; /*my code*/    
+    display: flex;
+    justify-content: center;   
   }
 
   .hamburger-icon {
@@ -106,16 +148,62 @@ nav a {
     text-decoration: none;
   }
 
-  /*my code*/
   a:hover { 
     text-decoration: underline;
   }
   
-  /*my code*/
   .current {
     font-weight: bold;
     text-decoration: underline;
   } 
+
+  .anchor-tag-jackets-button { 
+    margin: auto;
+    max-width: 180px;
+    height: 40px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+  }
+
+  .anchor-tag-jackets-button:hover {
+    text-decoration: none;
+  }  
+
+  .jackets-button {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 180px;
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    background: #8BCACE;
+    display: block;
+    cursor: pointer;
+  }
+
+  .jackets-button:hover {
+    border-style: solid;
+    border-color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .home-page-image-div { 
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-page-image { 
+    margin: auto;
+    width: 60%;
+    height: auto;
+  }
 }
 
 /*Main*/
@@ -139,56 +227,6 @@ nav a {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-}
-
-.jackets-button {
-  margin: auto;
-  margin-top: 20px;
-  max-width: 180px;
-  height: 40px;
-  width: 100%;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: grey;
-  background: #8BCACE;
-  display: block;
-  cursor: pointer;
-}
-
-.jackets-button:hover {
-  border-style: solid;
-  border-color: #000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.anchor-tag-jackets-button { 
-  margin: auto;
-  max-width: 180px;
-  height: 40px;
-  width: 100%;
-  display: block;
-  text-decoration: none;
-}
-
-.anchor-tag-jackets-button:hover {
-  text-decoration: none;
-}
-
-/*div-image home page*/
-.home-page-image-div { 
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-/*image-home page*/
-.home-page-image { 
-  margin: auto;
-  width: 80%;
-  height: auto;
 }
 
 footer {
