@@ -43,6 +43,14 @@ body {
   margin: auto;
 }
 
+header {
+  position: relative;
+  background: lightgrey;
+}
+
+/* nav mobile screen */
+/* @media (max-width: 710px)  */
+
 /*nav-mobile noroff vid */
 nav, #menu-checkbox {
   display: none;
@@ -50,12 +58,7 @@ nav, #menu-checkbox {
 
 /*nav-mobile noroff vid */
 #menu-checkbox:checked ~ nav {
-  display: block;
-}
-
-header {
-  position: relative;
-  background: lightgrey;
+  display: block;  
 }
 
 /*nav-mobile noroff vid*/
@@ -79,7 +82,7 @@ nav a {
   font-weight: bold;
   text-decoration: underline;
 }
-
+/* nav-mobile */
 .mobile-nav-icon {
   display: none;
 }
@@ -95,7 +98,7 @@ nav a {
   }
 
   .hamburger-icon {
-    display: none;
+     display: none;
   }
 
   nav a {
@@ -188,6 +191,8 @@ nav a {
 }
 
 footer {
+  margin: auto;
+  width: 100%;
   text-align: center;
   background-color: lightgrey;
   padding-top: 10px;
