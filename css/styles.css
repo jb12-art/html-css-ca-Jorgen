@@ -186,7 +186,8 @@ nav a {
 
 /*image-home page*/
 .home-page-image { 
-  width: 60%;
+  margin: auto;
+  width: 80%;
   height: auto;
 }
 
