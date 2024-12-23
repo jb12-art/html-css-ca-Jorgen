@@ -27,12 +27,14 @@ body {
 }
 
 .logo-div { 
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 28px;
   height: auto;
   max-width: 334px;
   display: flex;
   justify-content: center;  
-  margin: auto;
 }
 
 .logo {
@@ -120,12 +122,10 @@ nav a {
 
 /*title on the pages*/
 .page-title {
+  margin: auto;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: auto;
-  display: flex; /*new test*/
-  justify-content: center; /*new test*/
 }
 
 /* page-text-div */

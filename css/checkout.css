@@ -17,16 +17,26 @@
   margin: auto;
   max-width: 500px;
   margin-bottom: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-input {
-  width: 500px;
+.anchor-checkout-buy-now-button {
+  text-decoration: none;
+  margin: auto;
+  max-width: 150px;
+  width: 100%;
 }
 
-.checkout-buynow-button {
+.anchor-checkout-buy-now-button:hover {
+  text-decoration: none;
+}
+
+.checkout-buy-now-button {
+  margin: auto;
   margin-top: 40px;
-  width: 150px;
-  height: auto;
+  max-width: 150px;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
@@ -36,7 +46,7 @@ input {
   background-color: lightgrey;
 }
 
-.checkout-buynow-button:hover {
+.checkout-buy-now-button:hover {
   border-width: 2px;
   border-color: black;
   font-weight: bold;

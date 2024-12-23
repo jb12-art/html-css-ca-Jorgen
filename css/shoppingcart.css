@@ -1,4 +1,6 @@
-.cart-img {
+
+
+.cart-img { 
   width: 20px;
   height: 20px;
 }
@@ -16,21 +18,22 @@
   padding: 10px;
 }
 
-.anchor-checkout-button {
+.anchor-cart-checkout-button {
   text-decoration: none;
   margin: auto;
   display: block;
-  width: 130px;
+  max-width: 150px;
+  width: 100%;
 }
 
-.anchor-checkout-button:hover {
+.anchor-cart-checkout-button:hover {
   text-decoration: none;
 }
 
 .checkout-button {
   margin: auto;
-  width: 150px;
-  height: auto;
+  max-width: 150px;
+  width: 100%;
   margin-bottom: 60px;
   margin-top: 50px;
   display: block;  
