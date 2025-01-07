@@ -1,3 +1,30 @@
+/* Mobile screen */
+@media (max-width: 710px) {
+ .anchor-checkout-buy-now-button {
+    text-decoration: none;
+    margin: auto;
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .checkout-buy-now-button {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 150px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    font-weight: bold;
+    background-color: lightgrey;
+    cursor: pointer;
+  }
+
+}
+
 .order {
   margin: auto;
   text-align: center;
@@ -21,33 +48,37 @@
   padding-right: 5px;
 }
 
-.anchor-checkout-buy-now-button {
-  text-decoration: none;
-  margin: auto;
-  max-width: 150px;
-  width: 100%;
-}
-
-.anchor-checkout-buy-now-button:hover {
-  text-decoration: none;
-}
-
-.checkout-buy-now-button {
-  margin: auto;
-  margin-top: 40px;
-  max-width: 150px;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: grey;
-  border-width: 2px;
-  background-color: lightgrey;
-}
-
-.checkout-buy-now-button:hover {
-  border-width: 2px;
-  border-color: black;
-  font-weight: bold;
+/* Desktop screen */
+@media (min-width: 710px) {
+  .anchor-checkout-buy-now-button {
+    text-decoration: none;
+    margin: auto;
+    max-width: 150px;
+    width: 100%;
+  }
+  
+  .anchor-checkout-buy-now-button:hover {
+    text-decoration: none;
+  }
+  
+  .checkout-buy-now-button {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 150px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    background-color: lightgrey;
+    cursor: pointer;
+  }
+  
+  .checkout-buy-now-button:hover {
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+  }
 }

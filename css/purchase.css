@@ -1,38 +1,84 @@
-.successful-image {
-  margin: auto;
-  display: block;
-  max-width: 200px;
-  height: auto;
-  margin-top: 50px;
+/* Mobile screen */
+@media (max-width: 710px) {
+  .successful-image {
+    margin: auto;
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin: auto;
+    text-align: center;  
+    font-weight: 200;
+  }
+
+  .anchor-home-button {
+    margin: auto;
+    text-decoration: none;
+    display: block;
+    width: 125px;
+  }
+
+  .home-button {
+    margin: auto;
+    width: 125px;
+    display: block;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+  }
 }
 
-h2 {
-  margin: auto;
-  text-align: center;  
-  font-weight: 200;
-}
+/* Desktop screen */
+@media (min-width: 710px) {
+  .successful-image {
+    margin: auto;
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin: auto;
+    text-align: center;  
+    font-weight: 200;
+  }
 
-.home-button {
-  margin: auto;
-  width: 125px;
-  display: block;
-  padding: 10px 40px 10px 40px;
-  margin-bottom: 60px;
-  margin-top: 50px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: grey;
-}
+  .anchor-home-button {
+    margin: auto;
+    text-decoration: none;
+    display: block;
+    width: 125px;
+  }
+  
+  .anchor-home-button:hover {
+    text-decoration: none;
+  }
+  
+  .home-button {
+    margin: auto;
+    width: 125px;
+    display: block;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    font-weight: bold;
+    border-color: black;
+  }
 
-.home-button:hover {
-  font-weight: bold;
-  border-color: black;
-}
-
-.anchor-home-button {
-  text-decoration: none;
-}
-
-.anchor-home-button:hover {
-  text-decoration: none;
 }
