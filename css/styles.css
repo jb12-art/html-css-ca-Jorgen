@@ -86,9 +86,9 @@ header {
     margin: auto;
   }
 
-  .mobile-nav-icon {
+  /* .mobile-nav-icon { 
     display: none;
-  }
+  }*/
 
   nav a {
     display: block;
