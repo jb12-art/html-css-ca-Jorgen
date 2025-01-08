@@ -71,7 +71,6 @@ header {
 
 /* nav mobile screen */
 @media (max-width: 710px) {
-
   nav, #menu-checkbox {
     display: none;
   }
@@ -113,7 +112,7 @@ header {
     text-decoration: none;
   }
 
-   .jackets-button {
+  .jackets-button {
     margin: auto;
     margin-top: 20px;
     max-width: 180px;
@@ -130,24 +129,22 @@ header {
     cursor: pointer;
   }
 
-   .home-page-image-div { 
+  .home-page-image-div { 
     margin-top: 30px;
     display: flex;
     justify-content: center;
   }
 
-   .home-page-image { 
+  .home-page-image { 
     margin: auto;
     width: 100%;
     height: auto;
   }
-
 }
  
 
 /*nav desktop screen*/
 @media (min-width: 710px) {
-
   nav, #menu-checkbox { 
     display: none;
   }
@@ -230,7 +227,6 @@ header {
     width: 60%;
     height: auto;
   }
-
 }
 
 footer {

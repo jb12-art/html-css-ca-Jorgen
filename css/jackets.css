@@ -64,7 +64,6 @@
     margin-right: 5px;
     padding-bottom: 10px;
   }
-
 }
 
 
@@ -78,8 +77,7 @@
     border-style: solid;
     border-width: 1px;
     background: white;
-    display: flex;
-    
+    display: flex;    
   }
 
   .jacket-image-div {

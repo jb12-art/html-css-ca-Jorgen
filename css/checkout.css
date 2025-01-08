@@ -22,7 +22,6 @@
     background-color: lightgrey;
     cursor: pointer;
   }
-
 }
 
 .order {
@@ -36,8 +35,10 @@
 .conformation-text {
   margin: auto;
   text-align: center;
+  width: 530px;
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 1cm;
 }
 
 .payment-container {
