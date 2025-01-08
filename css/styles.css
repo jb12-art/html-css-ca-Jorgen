@@ -86,6 +86,7 @@ header {
     margin: auto;
   }
 
+  /* was in html <p class="mobile-nav-icon">hamburger-icon</p> */
   /* .mobile-nav-icon { 
     display: none;
   }*/
