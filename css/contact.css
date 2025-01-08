@@ -28,7 +28,7 @@
 }
 
 /* Noroff vid form */
-.form-input {
+.contact-form__input {
   margin: auto;
   max-width: 500px;
   width: 100%;
@@ -37,7 +37,7 @@
   margin-bottom: 20px;
 }
 
-.form-message {
+.form__message {
   margin: auto;
   max-width: 500px;
   width: 100%;
