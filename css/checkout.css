@@ -35,7 +35,7 @@
 .conformation-text {
   margin: auto;
   text-align: center;
-  width: 530px;
+  max-width: 530px;
   margin-top: 50px;
   margin-bottom: 50px;
   line-height: 1cm;
