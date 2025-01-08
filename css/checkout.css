@@ -49,6 +49,13 @@
   padding-right: 5px;
 }
 
+.form__input {
+  display: block;
+  max-width: 490px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 /* Desktop screen */
 @media (min-width: 710px) {
   .anchor-checkout-buy-now-button {
