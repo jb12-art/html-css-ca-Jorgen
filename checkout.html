@@ -28,6 +28,7 @@
               class="logo"
               src="images/RainyDays_Logo.png"
               alt="logo of the website"
+              aria-label="Link to home"
           /></a>
         </div>
         <!-- noroff vid -->
@@ -39,12 +40,16 @@
         >
         <!--navigation-->
         <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About us</a>
-          <a href="contact.html">Contact us</a>
-          <a href="jackets.html">Jackets</a>
-          <a href="shopping-cart.html">Shopping Cart</a>
-          <a href="checkout.html" class="current">Checkout</a>
+          <a href="index.html" aria-label="Link to home">Home</a>
+          <a href="about.html" aria-label="Link to about us">About us</a>
+          <a href="contact.html" aria-label="Link to contact us">Contact us</a>
+          <a href="jackets.html" aria-label="Link to jackets">Jackets</a>
+          <a href="shopping-cart.html" aria-label="Link to shopping cart"
+            >Shopping Cart</a
+          >
+          <a href="checkout.html" aria-label="Link to checkout" class="current"
+            >Checkout</a
+          >
         </nav>
       </header>
       <main class="page-main">
@@ -144,7 +149,12 @@
               />
             </form>
             <a class="anchor-checkout-buy-now-button" href="purchase.html"
-              ><button class="checkout-buy-now-button">Buy now</button>
+              ><button
+                aria-label="Buy now button"
+                class="checkout-buy-now-button"
+              >
+                Buy now
+              </button>
             </a>
           </div>
         </section>
