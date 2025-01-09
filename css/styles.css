@@ -86,10 +86,10 @@ header {
     margin: auto;
   }
 
-  /* WAVE gets error: empty label, and other gets error p element is not suited. */
-  /* Index line 41, redo all pages on this. <p class="mobile-nav-icon">hamburger-icon</p> */
+/* <i class="mobile-nav-icon">hamburger-icon</i> */
   .mobile-nav-icon { 
     display: none;
+    color: lightgrey;
   }
 
   nav a {

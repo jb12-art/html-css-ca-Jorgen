@@ -57,9 +57,6 @@
   margin-bottom: 20px;
 }
 
-.hide-button {
-  display: none;
-}
 
 /* Desktop screen */
 @media (min-width: 710px) {
