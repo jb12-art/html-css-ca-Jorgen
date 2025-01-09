@@ -105,16 +105,16 @@ header {
     text-decoration: underline;
   }
 
-  .anchor-tag-jackets-button { 
+  /* .anchor-tag-jackets-button {  
     margin: auto;
     max-width: 180px;
     height: 40px;
     width: 100%;
     display: block;
     text-decoration: none;
-  }
+  }*/
 
-  .jackets-button {
+  .anchor-jackets-link {
     margin: auto;
     margin-top: 20px;
     max-width: 180px;
@@ -182,20 +182,20 @@ header {
     text-decoration: underline;
   } 
 
-  .anchor-tag-jackets-button { 
+  /* .anchor-tag-jackets-button {  
     margin: auto;
     max-width: 180px;
     height: 40px;
     width: 100%;
     display: block;
     text-decoration: none;
-  }
+  } */
 
-  .anchor-tag-jackets-button:hover {
+  /* .anchor-tag-jackets-button:hover { 
     text-decoration: none;
-  }  
+  }  */
 
-  .jackets-button {
+  .anchor-jackets-link {
     margin: auto;
     margin-top: 20px;
     max-width: 180px;
@@ -209,12 +209,15 @@ header {
     background: #8BCACE;
     display: block;
     cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .jackets-button:hover {
+  .anchor-jackets-link:hover {
     border-style: solid;
     border-color: #000;
-    text-decoration: none;
     font-weight: bold;
   }
 
