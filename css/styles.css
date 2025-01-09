@@ -71,7 +71,7 @@ header {
 
 /* nav mobile screen */
 @media (max-width: 710px) {
-  nav, #menu-checkbox {
+  nav, #menu-checkbox, #hamburger-menu {
     display: none;
   }
 
@@ -86,10 +86,11 @@ header {
     margin: auto;
   }
 
-  /* was in html <p class="mobile-nav-icon">hamburger-icon</p> */
-  /* .mobile-nav-icon { 
+  /* WAVE gets error: empty label, and other gets error p element is not suited. */
+  /* Index line 41, redo all pages on this. <p class="mobile-nav-icon">hamburger-icon</p> */
+  .mobile-nav-icon { 
     display: none;
-  }*/
+  }
 
   nav a {
     display: block;
