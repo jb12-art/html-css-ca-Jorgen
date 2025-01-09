@@ -89,7 +89,6 @@ header {
 /* <i class="mobile-nav-icon">hamburger-icon</i> */
   .mobile-nav-icon { 
     display: none;
-    color: lightgrey;
   }
 
   nav a {
@@ -104,15 +103,6 @@ header {
     font-weight: bold;
     text-decoration: underline;
   }
-
-  /* .anchor-tag-jackets-button {  
-    margin: auto;
-    max-width: 180px;
-    height: 40px;
-    width: 100%;
-    display: block;
-    text-decoration: none;
-  }*/
 
   .anchor-jackets-link {
     margin: auto;
@@ -129,6 +119,10 @@ header {
     background: #8BCACE;
     display: block;
     cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .home-page-image-div { 
@@ -181,19 +175,6 @@ header {
     font-weight: bold;
     text-decoration: underline;
   } 
-
-  /* .anchor-tag-jackets-button {  
-    margin: auto;
-    max-width: 180px;
-    height: 40px;
-    width: 100%;
-    display: block;
-    text-decoration: none;
-  } */
-
-  /* .anchor-tag-jackets-button:hover { 
-    text-decoration: none;
-  }  */
 
   .anchor-jackets-link {
     margin: auto;
