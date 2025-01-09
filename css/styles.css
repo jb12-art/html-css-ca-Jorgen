@@ -71,7 +71,7 @@ header {
 
 /* nav mobile screen */
 @media (max-width: 710px) {
-  nav, #menu-checkbox, #hamburger-menu {
+  nav, #menu-checkbox {
     display: none;
   }
 
