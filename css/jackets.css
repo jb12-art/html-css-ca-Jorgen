@@ -83,7 +83,7 @@
 
   .jacket-image-div {
     margin: auto;
-    max-width: 280px;
+    width: 280px;
     height: 340px;
     margin-top: 5px;
     margin-left: 1px;
