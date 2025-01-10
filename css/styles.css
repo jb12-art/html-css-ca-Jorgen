@@ -123,6 +123,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
   }
 
   .home-page-image-div { 
@@ -194,6 +195,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
   }
 
   .anchor-jackets-link:hover {

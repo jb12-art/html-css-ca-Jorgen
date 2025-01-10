@@ -15,18 +15,12 @@
     padding-bottom: 30px;
   }
 
-  .anchor-home-button {
-    margin: auto;
-    text-decoration: none;
-    display: block;
-    width: 125px;
-  }
-
   .home-button {
     margin: auto;
     width: 125px;
     display: block;
     padding: 10px 40px 10px 40px;
+    background-color: lightgrey;
     margin-bottom: 60px;
     margin-top: 50px;
     border-radius: 10px;
@@ -34,6 +28,8 @@
     border-color: rgb(0, 0, 0);
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -54,32 +50,25 @@
     padding-bottom: 30px;
   }
 
-  .anchor-home-button {
-    margin: auto;
-    text-decoration: none;
-    display: block;
-    width: 125px;
-  }
-  
-  .anchor-home-button:hover {
-    text-decoration: none;
-  }
-  
   .home-button {
     margin: auto;
     width: 125px;
     display: block;
     padding: 10px 40px 10px 40px;
+    background-color: lightgrey;
     margin-bottom: 60px;
     margin-top: 50px;
     border-radius: 10px;
     border-style: solid;
     border-color: grey;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
   
   .home-button:hover {
     font-weight: bold;
     border-color: black;
+    text-decoration: none;
   }
 }

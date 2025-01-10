@@ -1,11 +1,5 @@
 /* Mobile screen */
 @media (max-width: 710px) {
- .anchor-checkout-buy-now-button {
-    text-decoration: none;
-    margin: auto;
-    max-width: 150px;
-    width: 100%;
-  }
 
   .checkout-buy-now-button {
     margin: auto;
@@ -21,6 +15,10 @@
     font-weight: bold;
     background-color: lightgrey;
     cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
   }
 }
 
@@ -60,17 +58,7 @@
 
 /* Desktop screen */
 @media (min-width: 710px) {
-  .anchor-checkout-buy-now-button {
-    text-decoration: none;
-    margin: auto;
-    max-width: 150px;
-    width: 100%;
-  }
-  
-  .anchor-checkout-buy-now-button:hover {
-    text-decoration: none;
-  }
-  
+    
   .checkout-buy-now-button {
     margin: auto;
     margin-top: 40px;
@@ -84,11 +72,16 @@
     border-width: 2px;
     background-color: lightgrey;
     cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
   }
   
   .checkout-buy-now-button:hover {
     border-width: 2px;
     border-color: black;
     font-weight: bold;
+    text-decoration: none;
   }
 }

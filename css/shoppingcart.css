@@ -3,7 +3,7 @@
   
   .checkout-button {
     margin: auto;
-    max-width: 150px;
+    max-width: 180px;
     width: 100%;
     margin-bottom: 60px;
     margin-top: 50px;
@@ -16,6 +16,9 @@
     border-width: 2px;
     padding: 10px 20px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -42,7 +45,7 @@
     
   .checkout-button {
     margin: auto;
-    max-width: 150px;
+    max-width: 180px;
     width: 100%;
     margin-bottom: 60px;
     margin-top: 50px;
@@ -54,11 +57,15 @@
     border-width: 2px;
     padding: 10px 20px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
   }
   
   .checkout-button:hover {
     border-width: 2px;
     border-color: black;
     font-weight: bold;
+    text-decoration: none;
   }
 }
