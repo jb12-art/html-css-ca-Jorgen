@@ -86,7 +86,6 @@ header {
     margin: auto;
   }
 
-/* <i class="mobile-nav-icon">hamburger-icon</i> */
   .mobile-nav-icon { 
     display: none;
   }
@@ -115,6 +114,7 @@ header {
     border-radius: 10px;
     font-weight: bold;
     border-style: solid;
+    border-width: 2px;
     border-color: black;
     background: #8BCACE;
     display: block;
