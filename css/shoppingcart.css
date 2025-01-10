@@ -1,13 +1,6 @@
 /* Mobile screen */
 @media (max-width: 710px) {
-  .anchor-cart-checkout-button {
-    text-decoration: none;
-    margin: auto;
-    display: block;
-    max-width: 150px;
-    width: 100%;
-  }
-
+  
   .checkout-button {
     margin: auto;
     max-width: 150px;
@@ -46,18 +39,7 @@
 
 /* Desktop screen */
 @media (min-width: 710px) {
-  .anchor-cart-checkout-button {
-    text-decoration: none;
-    margin: auto;
-    display: block;
-    max-width: 150px;
-    width: 100%;
-  }
-  
-  .anchor-cart-checkout-button:hover {
-    text-decoration: none;
-  }
-  
+    
   .checkout-button {
     margin: auto;
     max-width: 150px;
