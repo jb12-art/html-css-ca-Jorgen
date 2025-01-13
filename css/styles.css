@@ -69,8 +69,8 @@ header {
 }
 
 
-/* nav mobile screen */
-@media (max-width: 710px) {
+/* nav & mobile screen */
+@media (max-width: 820px) {
   nav, #menu-checkbox {
     display: none;
   }
@@ -124,6 +124,7 @@ header {
     flex-direction: column;
     justify-content: center;
     color: black;
+    text-decoration: none;
   }
 
   .home-page-image-div { 
@@ -140,8 +141,8 @@ header {
 }
  
 
-/*nav desktop screen*/
-@media (min-width: 710px) {
+/*nav & desktop screen*/
+@media (min-width: 821px) {
   nav, #menu-checkbox { 
     display: none;
   }
@@ -196,12 +197,14 @@ header {
     flex-direction: column;
     justify-content: center;
     color: black;
+    text-decoration: none;
   }
 
   .anchor-jackets-link:hover {
     border-style: solid;
     border-color: #000;
     font-weight: bold;
+    text-decoration: none;
   }
 
   .home-page-image-div { 

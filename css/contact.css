@@ -13,7 +13,7 @@
   margin-bottom: 60px;  
 }
 
-/* I could put them all in one class, but I like to have them separate */
+/* I could put them all in one class, but I like to have them separated */
 .div1, .div2, .div3, .div4, .div5 {
   margin: auto;
   max-width: 700px;

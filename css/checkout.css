@@ -1,5 +1,5 @@
 /* Mobile screen */
-@media (max-width: 710px) {
+@media (max-width: 820px) {
 
   .checkout-buy-now-button {
     margin: auto;
@@ -22,12 +22,12 @@
   }
 }
 
-.order {
+.order-overview-text {
   margin: auto;
   text-align: center;
-  display: block;
-  margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 21px;
+  font-weight: normal;
 }
 
 .conformation-text {
@@ -57,7 +57,7 @@
 
 
 /* Desktop screen */
-@media (min-width: 710px) {
+@media (min-width: 821px) {
     
   .checkout-buy-now-button {
     margin: auto;

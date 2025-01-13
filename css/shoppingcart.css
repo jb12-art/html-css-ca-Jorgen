@@ -1,5 +1,5 @@
 /* Mobile screen */
-@media (max-width: 710px) {
+@media (max-width: 820px) {
   
   .checkout-button {
     margin: auto;
@@ -41,7 +41,7 @@
 }
 
 /* Desktop screen */
-@media (min-width: 710px) {
+@media (min-width: 821px) {
     
   .checkout-button {
     margin: auto;

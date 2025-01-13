@@ -1,5 +1,5 @@
 /* Mobile screen */
-@media (max-width: 710px) {
+@media (max-width: 820px) {
   .successful-image {
     margin: auto;
     display: block;
@@ -8,7 +8,15 @@
     margin-top: 50px;
   }
   
-  .purchase {
+  .purchase-h2 {
+    margin: auto;
+    text-align: center;  
+    font-weight: 400;
+    padding-bottom: 30px;
+    font-size: 21px;
+  }
+
+  .purchase-h3 {
     margin: auto;
     text-align: center;  
     font-weight: 400;
@@ -35,7 +43,7 @@
 }
 
 /* Desktop screen */
-@media (min-width: 710px) {
+@media (min-width: 821px) {
   .successful-image {
     margin: auto;
     display: block;
@@ -44,7 +52,15 @@
     margin-top: 50px;
   }
   
-  .purchase {
+  .purchase-h2 {
+    margin: auto;
+    text-align: center;  
+    font-weight: 400;
+    padding-bottom: 30px;
+    font-size: 21px;
+  }
+
+  .purchase-h3 {
     margin: auto;
     text-align: center;  
     font-weight: 400;
