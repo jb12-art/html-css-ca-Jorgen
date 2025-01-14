@@ -128,6 +128,8 @@ header {
   }
 
   .home-page-image-div { 
+    margin: auto;
+    max-width: 840px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -208,6 +210,8 @@ header {
   }
 
   .home-page-image-div { 
+    margin: auto;
+    max-width: 840px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -215,7 +219,7 @@ header {
   
   .home-page-image { 
     margin: auto;
-    width: 60%;
+    width: 100%;
     height: auto;
   }
 }
