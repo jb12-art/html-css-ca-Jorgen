@@ -6,11 +6,12 @@
     max-width: 200px;
     height: auto;
     margin-top: 50px;
+    border-radius: 50%;
   }
-  
+
   .purchase-h2 {
     margin: auto;
-    text-align: center;  
+    text-align: center;
     font-weight: 400;
     padding-bottom: 30px;
     font-size: 21px;
@@ -18,7 +19,7 @@
 
   .purchase-h3 {
     margin: auto;
-    text-align: center;  
+    text-align: center;
     font-weight: 400;
     padding-bottom: 30px;
   }
@@ -50,11 +51,12 @@
     max-width: 200px;
     height: auto;
     margin-top: 50px;
+    border-radius: 50%;
   }
-  
+
   .purchase-h2 {
     margin: auto;
-    text-align: center;  
+    text-align: center;
     font-weight: 400;
     padding-bottom: 30px;
     font-size: 21px;
@@ -62,7 +64,7 @@
 
   .purchase-h3 {
     margin: auto;
-    text-align: center;  
+    text-align: center;
     font-weight: 400;
     padding-bottom: 30px;
   }
@@ -83,7 +85,7 @@
     text-decoration: none;
     color: black;
   }
-  
+
   .home-button:hover {
     font-weight: bold;
     border-color: black;
