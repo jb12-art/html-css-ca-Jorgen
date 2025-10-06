@@ -8,7 +8,26 @@ Imitating e-commerce with code that is hard coded to make a look alike e-commerc
 
 - In Jackets page you see the first jacket 'Add to Cart' button is green, and the button text is changed to 'Added to cart'.
 
-- In 'Shopping Cart(1)' you see there is 1 item added permanenlty. This is the part of the mimicking of JavaScript we don't use here.
+- In 'Shopping Cart(1)' you see there is 1 item added permanenlty, to simulate a product being added.
+
+## Built with
+
+HTML
+CSS
+
+## Intalling
+
+1. Clone repo: https://github.com/jb12-art/html-css-ca-Jorgen.git
+
+2. Install the dependencies: npm install
+
+## Running
+
+To run the app, run the following commands: npm run start
+
+#
+
+#
 
 # HTML & CSS Course Assignment
 
