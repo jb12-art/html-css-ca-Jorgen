@@ -18,15 +18,18 @@ Imitating e-commerce with code that is hard coded to make a look alike e-commerc
 ## Intalling
 
 1. Clone repo:
-   https://github.com/jb12-art/html-css-ca-Jorgen.git
+
+- https://github.com/jb12-art/html-css-ca-Jorgen.git
 
 2. Install the dependencies:
-   npm install
+
+- npm install
 
 ## Running
 
 To run the app, run the following commands:
-npm run start
+
+- npm run start
 
 #
 
