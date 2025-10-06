@@ -1,6 +1,19 @@
+# (Portfolio task) HTML & CSS
+
+This is the first coding project and it's about learning HTML & CSS.
+
+## Description
+
+Imitating e-commerce with code that is hard coded to make a look alike e-commerce. Certain functionality requiring JavaScript are mimicked.
+
+- In Jackets page you see the first jacket 'Add to Cart' button is green, and the button text is changed to 'Added to cart'.
+
+- In 'Shopping Cart(1)' you see there is 1 item added permanenlty. This is the part of the mimicking of JavaScript we don't use here.
+
 # HTML & CSS Course Assignment
 
 ## Goal
+
 To put into practice everything you’ve learned about HTML and CSS over this course by bringing your design alive.
 
 ## Brief
@@ -34,14 +47,14 @@ To put into practice everything you’ve learned about HTML and CSS over this co
 3. Write a basic plan for how to approach this, what will you do first? What will you do last?
 4. Work through your plan to create HTML and CSS files for each page.
 5. Test your website using your developer tools and also test on major browsers and various devices.
-8. Validate your code using the Markup Validation Service
-9. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-10. Go through the marking criteria and ensure your website meets each criteria.
-11. Deploy your site on Github Pages - remember that you can still make changes after it is deployed.
-12. When your site is ready, post it for Peer Review on Teams or Moodle.
-13. Look at the work of your peers and write a review for them.
-14. Make adjustments based on the feedback you gather.
-15. Delivery in Moodle.
+6. Validate your code using the Markup Validation Service
+7. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
+8. Go through the marking criteria and ensure your website meets each criteria.
+9. Deploy your site on Github Pages - remember that you can still make changes after it is deployed.
+10. When your site is ready, post it for Peer Review on Teams or Moodle.
+11. Look at the work of your peers and write a review for them.
+12. Make adjustments based on the feedback you gather.
+13. Delivery in Moodle.
 
 ## Submission
 
